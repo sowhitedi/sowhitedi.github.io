@@ -1,0 +1,563 @@
+body{
+	background: url(images/background.png) repeat top left;
+	margin:auto 0;
+}
+
+.img{
+	max-width:100%;
+	box-shadow: 1px 1px 10px 1px #464646;
+}
+
+.object{
+	max-width:100%;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	color:#FFFCB6;
+	text-align:center;
+	margin-top: 90px;
+	font-family: 'Sentinel A', 'Sentinel B'; 
+	font-weight: 600; 
+	font-style: normal;
+	font-size:2.375em;
+}
+
+h2{
+	font-family: 'Sentinel A', 'Sentinel B';
+	font-size:2.25em;
+	font-weight: 400; 
+	font-style: normal;
+	color:#fff;
+	text-align: left;
+	margin-top: 40px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-family: 'Gotham A', 'Gotham B'; 
+	font-weight: 300; 
+	font-style: normal;
+	font-size: .8em;
+	font-weight:normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+p{
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 1em;
+	color:white;
+	font-size:1.125em;
+	line-height: 1.875em;
+}
+
+#header {
+	height: 134px;
+	margin-top: 30px;
+}
+
+#logo {
+	height: 100%;
+	width: 200px;
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+
+.nav a {
+	color: #fff;
+	font-family: 'Gotham A', 'Gotham B'; 
+	font-weight: 300; 
+	font-style: normal;
+	text-decoration: none;
+	font-size: .850em;
+	letter-spacing: 2px;
+	margin: 0 20px
+}
+
+.nav a:hover{
+	color:#befce0;
+}
+
+.blue-line {
+	height:0.5em;
+	clear:both;
+	width:100%;
+	background-color: #00dba0;
+	margin-bottom: 0.947em;
+}
+
+.hero-unit {
+	height:25em;
+	width:100%;
+	background: url(images/herodesk.png) 55% 0 repeat-x #a46e42;
+	background-size:cover;
+	background-position: center;
+	margin-bottom:0.947em;
+}
+
+.green-line {
+	height:0.5em;
+	clear:both;
+	width:100%;
+	background-color: #b4db00;
+}
+
+.about{
+	margin-top:8em;
+	padding-right: 10px;
+}
+
+
+
+.rkw{
+	font-family: 'Gotham A', 'Gotham B'; 
+	font-weight: 300; 
+	font-style: normal;
+	color:#78ecb7;
+	font-size: 1.25em;
+	font-weight:normal;
+	letter-spacing: 1.75px;
+}
+
+.italic{
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
+	font-weight: 400; 
+	font-style: italic;
+	color:#78ecb7;
+	margin-right: 3px;
+}
+
+.headshot{
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right:auto;
+	padding: 10px;
+}
+
+.contact{
+	padding-bottom:20%;
+	margin-top: -20px;
+}
+
+.hello {
+	margin-top: -10px;
+	font-size: 2.2em;
+	color: #b4db00;
+	font-family: 'Sentinel A', 'Sentinel B'; 
+	font-weight: 600; 
+	font-style: normal;
+}
+
+.social{
+	margin-top:0px;
+}
+
+.icons {
+	margin:10px;
+	padding-top: 2em; 
+}
+
+
+.blue-line-footer {
+	height:0.75em;
+	clear:both;
+	width:100%;
+	background-color: #00dba0;
+	margin-top: 6em;
+	margin-bottom:2em;
+}
+
+#footer{
+	width:100%;
+	height:40px;
+
+}
+#footer-logo{
+	width:100px;
+	position:relative;
+	margin:0 auto;
+}
+
+.b{
+	margin:0 auto;
+}
+
+.footer-text{
+	text-align: center; 
+	color:#9dab5c;
+	font-family: 'Gotham A', 'Gotham B'; 
+	font-weight: 300; 
+	font-style: normal;
+	font-size: .75em;
+}
+
+/* CSS For Portfolio Page
+================================================== */
+
+.page-title {
+	height:7em;
+	width:100%;
+	background-color: rgba(109, 145, 132, 0.23);
+	background-position: center;
+
+}
+
+
+h2.featured{
+	text-align:center;
+	margin-top: 19px;
+	line-height:1em;
+}
+
+h3.featured-byline {
+	color:#e4fd6f;
+	text-align: center;
+	margin-bottom: 31px;
+}
+#portfolio-body{
+	margin-top: 3em;
+}
+
+.portfolio-img{
+	max-width:100%;
+	float:none;
+	margin-bottom: 35px;
+	box-shadow: 1px 1px 10px 1px #464646;
+}
+
+
+
+/* CSS For Indiv. Portfolio Pages
+================================================== */
+
+#description{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	padding-right: 30px;
+}
+
+h2.portfolio-title {
+	text-align: left;
+	margin-top: 40px;
+	line-height: 1.15em;
+}
+
+h3.portfolio-desc{
+	color:#e4fd6f;
+	line-height: 1.75em;
+	padding-bottom: 10px;
+}
+
+.image-div{
+	margin-top: 50px;
+	margin-left:10px;
+}
+.video-container{
+    position: relative;
+    height:50%;
+    overflow:hidden;
+    margin-bottom: -60px;
+   	margin-left:10px;
+    }
+
+.video-container iframe {
+	position:absolute;
+	width: 100%;
+	border: none;
+	}
+
+/* CSS For Blog Page
+================================================== */
+#blog{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	margin-bottom: 80px;
+	padding-right: 30px;
+
+}
+
+h3.blog-date{
+	color: #78ecb7;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.blog-italic{
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
+	font-weight: 400; 
+	font-style: italic;
+}
+
+h3.blog-section{
+	font-size: 1em;
+	color:#e4fd6f;
+	margin-bottom: -15px;
+	line-height: 1.625em;
+}
+
+.entries {
+	border-left:1px solid #befce0;
+	margin-top: 60px;
+	padding-left:30px;
+	padding-right: 30px;
+	text-align: left;
+}
+
+.recently{
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 1em;
+	color:#e4fd6f;
+}
+
+.entry-title{
+	color: #fff;
+	font-family: 'Gotham A', 'Gotham B'; 
+	font-weight: 400; 
+	font-style: normal;
+	text-decoration: none;
+	font-size: .8em;
+}
+
+.entry-title:hover{
+	color:#befce0;
+}
+
+h3.entry-date{
+	color: #e4fd6f;
+	font-size: .50em;
+	letter-spacing: 1.5px;
+	margin-bottom: 40px;
+}
+
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 945px) {
+
+	.hero-unit{
+		height:22em;
+	}
+
+	h1{
+		font-size: 2.1em;
+		margin-top: 80px;
+	}
+
+	.headshot {
+		width:190px;
+		margin: 10px;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+		}
+
+	.hero-unit{
+		height:19em;
+	}	
+
+	h1{
+		font-size: 2em;
+		margin-top: 65px;
+	}
+	
+	.blue-line, .green-line, .blue-line-footer {
+		height:0.45em;	
+	}
+
+	.about {
+		margin: 4em auto;
+	}
+	.headshot{
+		width: 35%;
+		float:right;
+		margin-top: -30px;
+	}
+	.hello{
+		margin-top: -200px;
+	}
+	.social{
+		margin-top: -160px;
+	}
+	.icons {
+		margin:0 20 0 0;
+		float:left;
+	}
+	.portfolio-img {
+		max-width: 100%;
+		display: block;
+		float: none;
+		margin: 0 auto 35px;
+		box-shadow: 1px 1px 10px 1px #464646;
+		}
+}
+
+@media screen and (max-width: 590px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+		}
+
+	#header{
+		height:142px;
+	}
+
+	#logo {
+	width:180px;
+	margin: 0 auto;
+	}
+
+	.object {
+		width:100%;
+	}
+
+	.nav{
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+	    text-align:center;
+	}
+
+	.nav li{
+	    display:inline;
+	    float:none;
+	}
+	.nav a{
+	    display:inline-block;
+	    padding:10px;
+	}
+
+	.hero-unit{
+		height:17em;
+	}
+
+	h1{
+		font-size: 1.75em;
+		margin-top: 60px;
+	}
+	.blue-line, .green-line, .blue-line-footer {
+		height:0.35em;	
+	}
+	.headshot{
+		display:none;
+	}
+
+	.contact{
+		width:100%;
+		margin-top: 20px;
+	}
+	.hello {
+		margin:0px;	
+	}
+
+	.social {
+		margin:0px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+		}
+
+	.hero-unit{
+		height:15em;
+	}	
+	h1{
+		font-size: 1.5em;
+		margin-top: 50px;
+	}
+
+	.nav a {
+		margin: 0 8px;
+		}
+}
+
+@media screen and (max-width: 380px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+		}
+
+	.hero-unit{
+		height:15em;
+	}	
+	h1{
+		font-size: 1.5em;
+		margin-top: 50px;
+	}
+}
