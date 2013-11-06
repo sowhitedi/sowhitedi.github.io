@@ -35,7 +35,7 @@ h2{
 	color:#fff;
 	text-align: left;
 	margin-top: 40px;
-	line-height: 1.5em;
+	line-height: 1.25em;
 }
 
 h3 {
@@ -150,6 +150,7 @@ p{
 	margin-left: -20px;
 	margin-right:auto;
 	padding: 10px;
+	width:280px;
 }
 
 .contact{
@@ -167,12 +168,13 @@ p{
 }
 
 .social{
-	margin-top:0px;
+	margin-top:-40px;
 }
 
 .icons {
 	margin:10px;
 	padding-top: 2em; 
+	width:46px;
 }
 
 
@@ -513,7 +515,8 @@ h3.entry-date{
 		margin-top: 25px;
 	}
 	.blue-line, .green-line, .blue-line-footer {
-		height:0.35em;	
+		height:0.15em;	
+		margin-top: 3em;
 	}
 	.headshot{
 		display:none;
@@ -588,6 +591,11 @@ h3.entry-date{
 		font-size: 1.5em;
 		margin-top: 50px;
 	}
+	.icons {
+		margin:0 4% 0 0;
+		padding-top: 2em; 
+		width:13%;
+	}
 }
 
 @media screen and (max-width: 339px) {
@@ -611,6 +619,6 @@ h3.entry-date{
 		display:block;
 		padding:10px;
 		font-size: .750em;
-
+		border-bottom: 1px #638877 solid;
 	}
 }
