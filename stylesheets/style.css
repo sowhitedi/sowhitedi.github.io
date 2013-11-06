@@ -307,7 +307,6 @@ h3.blog-date{
 }
 
 h3.blog-section{
-	font-size: 1em;
 	color:#e4fd6f;
 	margin-bottom: -15px;
 	line-height: 1.625em;
@@ -405,7 +404,7 @@ h3.entry-date{
 		font-size: 1.75em;
 		text-align: left;
 		margin-top: 30px;
-		line-height: 1.0em;
+		line-height: 1.1875em;
 		}
 
 	p{
@@ -487,6 +486,7 @@ h3.entry-date{
 		margin: 0 0 20 0;
 	    padding:0;
 	    text-align:center;
+		background-color: rgba(109, 145, 132, 0.23);
 	}
 
 	.nav li{
@@ -558,6 +558,7 @@ h3.entry-date{
 		margin-top: 50px;
 	}
 
+
 	.nav a {
 		margin: 0 8px;
 		}
@@ -610,5 +611,6 @@ h3.entry-date{
 		display:block;
 		padding:10px;
 		font-size: .750em;
+
 	}
 }
