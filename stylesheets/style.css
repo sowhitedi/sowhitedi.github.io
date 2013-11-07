@@ -80,9 +80,7 @@ p{
 }
 
 .nav a {
-/*	color:#befce0;
-*/	
-	color:#F2FFB8;
+	color:#E4FA83;
 	font-family: 'Gotham A', 'Gotham B'; 
 	font-weight: 300; 
 	font-style: normal;
@@ -147,16 +145,16 @@ p{
 	margin-top: 35;
 	width: 240px;
 }
-.about-text{
+/*.about-text{
 	margin-left:35px;
-}
+}*/
 .contact{
 	padding-bottom:20%;
 	margin-top: -20px;
 }
 
 .hello {
-	margin-top: -10px;
+	margin-top: 0px;
 	font-size: 2.2em;
 	color: #b4db00;
 	font-family: 'Sentinel A', 'Sentinel B'; 
@@ -165,13 +163,13 @@ p{
 }
 
 .social{
-	margin-top:-40px;
+	margin: -111 0 0 320;
 }
 
 .icons {
-	margin:10px;
+	margin-right:5%;
 	padding-top: 2em; 
-	width:46px;
+	width:40px;
 }
 
 
@@ -367,11 +365,23 @@ h3.entry-date{
 	}
 
 	.headshot {
-		width:190px;
-		margin: 10px;
+		width:100%;
+		margin: 30 0 0 10;
 	}
 }
 
+@media only screen and (max-width: 910px) {
+
+	.social{
+		margin: -111 0 0 320;
+	}
+
+	.icons {
+		margin-right:3%;
+		padding-top: 2em; 
+		width:31px;
+	}
+}
 
 @media screen and (max-width: 780px) {
 
@@ -423,11 +433,10 @@ h3.entry-date{
 		margin: 4em auto;
 	}
 	.headshot{
-		width: 35%;
-		float:right;
-		margin-top: -30px;
+		width: 30%;
+		margin: 4% 36%;	
 	}
-	.hello{
+/*	.hello{
 		margin-top: -200px;
 	}
 	.social{
@@ -436,6 +445,10 @@ h3.entry-date{
 	.icons {
 		margin:0 20 0 0;
 		float:left;
+	}*/
+
+	.blue-line-footer{
+		margin-top: 0px;
 	}
 	.portfolio-img {
 		max-width: 100%;
@@ -499,12 +512,12 @@ h3.entry-date{
 	}
 
 	.hero-unit{
-		height:17em;
+		height:16em;
 	}
 
 	h1{
 		font-size: 1.75em;
-		margin-top: 60px;
+		margin-top: 46px;
 	}
 
 	h2 {
@@ -513,7 +526,7 @@ h3.entry-date{
 	}
 	.blue-line, .green-line, .blue-line-footer {
 		height:0.15em;	
-		margin-top: 3em;
+		margin-top: 1em;
 	}
 	.headshot{
 		display:none;
@@ -529,6 +542,11 @@ h3.entry-date{
 
 	.social {
 		margin:0px;
+	}
+
+	.icons{
+		padding-top: 1em;
+		width:40px;
 	}
 }
 
@@ -551,17 +569,20 @@ h3.entry-date{
 		}
 
 	.hero-unit{
-		height:15em;
+		height:14em;
 	}	
 	h1{
 		font-size: 1.5em;
-		margin-top: 50px;
+		margin-top: 41px;
 	}
 
 
 	.nav a {
 		margin: 0 8px;
 		}
+	.rkw{
+		margin-top:0px;
+	}	
 }
 
 @media screen and (max-width: 380px) {
@@ -582,11 +603,15 @@ h3.entry-date{
 		}
 
 	.hero-unit{
-		height:15em;
+		height:12em;
 	}	
 	h1{
-		font-size: 1.5em;
-		margin-top: 50px;
+		font-size: 1.3em;
+		margin-top: 38px;
+	}
+	
+	.rkw{
+		margin-top:-24px;
 	}
 	.icons {
 		margin:0 4% 0 0;
@@ -617,5 +642,16 @@ h3.entry-date{
 		padding:10px;
 		font-size: .750em;
 		border-bottom: 1px #638877 solid;
+	}	
+	#last{
+		border-bottom: 0px;
+	}
+
+	.hero-unit{
+		height:11em;
+	}	
+	h1{
+		font-size: 1.2em;
+		margin-top: 33px;
 	}
 }
