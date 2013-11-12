@@ -234,12 +234,29 @@ h3.featured-byline {
 }
 
 .portfolio-img{
-	max-width:100%;
-	float:none;
-	margin-bottom: 35px;
+	width: 100%;
+	float: none;
+	display: inline;
+	margin: 1% 0 6% 1%;
 	box-shadow: 1px 1px 10px 1px #464646;
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+	}
+
+.portfolio-img:hover{
+	opacity: 0.6;
+	filter:alpha(opacity=60);
 }
 
+
+h3.portfolio-tagline{
+	color:#78ecb7;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	margin: 0 0 0 1%;
+	font-size:.75em;
+}
 
 
 /* CSS For Indiv. Portfolio Pages
@@ -450,13 +467,20 @@ h3.entry-date{
 	.blue-line-footer{
 		margin-top: 0px;
 	}
+	h3.portfolio-tagline{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 0 0 2% 1%;
+	font-size:.625em;
+	}
 	.portfolio-img {
-		max-width: 100%;
-		display: block;
-		float: none;
-		margin: 0 auto 35px;
-		box-shadow: 1px 1px 10px 1px #464646;
-		}
+	max-width: 80%;
+	float: none;
+	display: inline;
+	margin: 0 10% 6% 10%;
+	box-shadow: 1px 1px 10px 1px #464646;
+	}
 	#blog{
 		padding-right: 0px;
 		margin-bottom:0px;
@@ -481,11 +505,11 @@ h3.entry-date{
 		}
 
 	#header{
-		height:142px;
+		height:116px;
 	}
 
 	#logo {
-	width:180px;
+	width:138px;
 	margin: 0 auto;
 	}
 
@@ -547,6 +571,31 @@ h3.entry-date{
 	.icons{
 		padding-top: 1em;
 		width:40px;
+	}
+	.page-title{
+		height:4em;
+	}
+	h2.featured{
+		margin-top: 16px;
+	}
+
+	h3.featured-byline {
+		display: none;
+	}
+
+	#portfolio-body{
+		margin-top: 0em;
+	}
+	h3.portfolio-tagline{
+	color:#e4fd6f;	
+	margin: 0% 0 3% 1%;
+	padding-top: 6%;
+	}
+	.portfolio-img{
+	max-width: 80%;
+	float: none;
+	display: inline;
+	margin: 0 10% 3% 10%;
 	}
 }
 
@@ -617,6 +666,16 @@ h3.entry-date{
 		margin:0 4% 0 0;
 		padding-top: 2em; 
 		width:13%;
+	}
+	.page-title{
+		height:4em;
+	}
+
+	.portfolio-img{
+	max-width: 100%;
+	float: none;
+	display: inline;
+	margin: 0 1% 6% 1%;
 	}
 }
 
