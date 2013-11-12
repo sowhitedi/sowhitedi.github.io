@@ -453,16 +453,6 @@ h3.entry-date{
 		width: 30%;
 		margin: 4% 36%;	
 	}
-/*	.hello{
-		margin-top: -200px;
-	}
-	.social{
-		margin-top: -160px;
-	}
-	.icons {
-		margin:0 20 0 0;
-		float:left;
-	}*/
 
 	.blue-line-footer{
 		margin-top: 0px;
@@ -506,6 +496,7 @@ h3.entry-date{
 
 	#header{
 		height:116px;
+		margin-top:15px;
 	}
 
 	#logo {
@@ -573,7 +564,8 @@ h3.entry-date{
 		width:40px;
 	}
 	.page-title{
-		height:4em;
+		height:2em;
+		background-color:transparent;
 	}
 	h2.featured{
 		margin-top: 16px;
@@ -668,7 +660,7 @@ h3.entry-date{
 		width:13%;
 	}
 	.page-title{
-		height:4em;
+		height:3.5em;
 	}
 
 	.portfolio-img{
@@ -698,8 +690,8 @@ h3.entry-date{
 
 	.nav a {
 		display:block;
-		padding:10px;
-		font-size: .750em;
+		padding:8px;
+		font-size: .625em;
 		border-bottom: 1px #638877 solid;
 	}	
 	#last{
