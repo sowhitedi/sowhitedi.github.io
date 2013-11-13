@@ -461,14 +461,14 @@ h3.entry-date{
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	margin: 0 0 2% 1%;
+	margin: 2% 0 2% 1%;
 	font-size:.625em;
 	}
 	.portfolio-img {
 	max-width: 80%;
 	float: none;
 	display: inline;
-	margin: 0 10% 6% 10%;
+	margin: 0 10% 4% 10%;
 	box-shadow: 1px 1px 10px 1px #464646;
 	}
 	#blog{
