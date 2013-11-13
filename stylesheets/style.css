@@ -15,6 +15,7 @@ body{
 
 a{
 	text-decoration: none;
+	color:white;
 }
 
 h1{
@@ -318,6 +319,13 @@ h3.blog-date{
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
 	font-weight: 400; 
 	font-style: italic;
+}
+
+.blog-emphasis{
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
 
 h3.blog-section{
