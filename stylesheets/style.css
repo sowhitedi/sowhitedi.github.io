@@ -69,14 +69,14 @@ p{
 	width: 200px;
 	position: relative;
 	padding-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 	}
 
 .nav li{
 	list-style: none;
 	display: inline-block;
 	float: right;
-	margin-top: -30px;
+	margin-top: -37px;
 	margin-bottom: 20px;
 }
 
@@ -515,7 +515,7 @@ h3.entry-date{
 
 	#logo {
 	width:138px;
-	margin: 0 auto;
+	margin: 0 auto 16px;
 	}
 
 	.object {
