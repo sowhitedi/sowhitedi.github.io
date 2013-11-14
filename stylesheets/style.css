@@ -131,6 +131,7 @@ p{
 	color:#78ecb7;
 	font-size: 1.25em;
 	font-weight:normal;
+	line-height: 1.5em;
 	letter-spacing: 1.75px;
 }
 
@@ -559,12 +560,13 @@ h3.entry-date{
 		width:100%;
 		margin-top: 20px;
 	}
+
 	.hello {
 		margin:0px;	
 	}
 
 	.social {
-		margin:0px;
+		margin:0;
 	}
 
 	.icons{
@@ -628,9 +630,10 @@ h3.entry-date{
 
 	.nav a {
 		margin: 0 8px;
-		}
+	}
 	.rkw{
 		margin-top:0px;
+		font-size: .875em;
 	}	
 }
 
@@ -661,6 +664,13 @@ h3.entry-date{
 	
 	.rkw{
 		margin-top:-24px;
+	}
+
+	.hello{
+		text-align: center;
+	}
+	.social{
+		margin:0 -7% 0 7%;
 	}
 	.icons {
 		margin:0 4% 0 0;
