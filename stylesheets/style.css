@@ -59,15 +59,28 @@ p{
 	line-height: 1.5em;
 }
 
+.language-choice{
+	text-align: right;
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B';
+	font-weight: 400;
+	font-style: italic;
+	color: #78ecb7;
+	font-size: .8em;
+	margin: 0px;
+	padding: 7px 20px 7px 20px;
+	background-color: rgba(14, 25, 25, 0.16);
+	float: right;
+}
+
 #header {
 	height: 134px;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 #logo {
 	width: 200px;
 	position: relative;
-	padding-top: 20px;
+	padding-top: 0px;
 	margin-bottom: 17px;
 	}
 
@@ -515,7 +528,7 @@ a.blog-link:hover{
 
 	#header{
 		height:116px;
-		margin-top:15px;
+		margin-top:0px;
 	}
 
 	#logo {
@@ -629,6 +642,12 @@ a.blog-link:hover{
 		width:100%;
 		}
 
+	.language-choice{
+		float:none;
+		text-align:center;
+		margin: 10px 0 25px 0;
+	}
+	
 	.hero-unit{
 		height:14em;
 	}	
@@ -716,6 +735,11 @@ a.blog-link:hover{
 		width:100%;
 		}
 
+	.language-choice{
+		float:none;
+		text-align:center;
+		margin: 10px 0 25px 0;
+	}
 	.nav a {
 		display:block;
 		padding:8px;
