@@ -396,6 +396,9 @@ a.blog-link:hover{
 	color:#ECF8B5;
 }
 
+.blog-head{
+	margin-top:3%;
+}
 /* #Media Queries
 ================================================== */
 @media only screen and (max-width: 1000px) {
