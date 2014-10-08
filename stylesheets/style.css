@@ -1,6 +1,6 @@
 body{
-	background: url(images/background.png) repeat top left;
-	background-color: #454b4c;
+	background-color: #455253
+;
 	margin:auto 0;
 }
 
@@ -129,7 +129,7 @@ p{
 	height:0.5em;
 	clear:both;
 	width:100%;
-	background-color: #b4db00;
+	background-color: #80E36C;
 }
 
 .about{
@@ -171,7 +171,7 @@ p{
 .hello {
 	margin-top: 0px;
 	font-size: 2.2em;
-	color: #b4db00;
+	color: #80E36C;
 	font-family: 'Sentinel A', 'Sentinel B'; 
 	font-weight: 600; 
 	font-style: normal;
